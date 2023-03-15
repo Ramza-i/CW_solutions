@@ -9,10 +9,10 @@ def seven(f=None): return f(7) if f is not None else 7
 def eight(f=None): return f(8) if f is not None else 8
 def nine(f=None): return f(9) if f is not None else 9
 
-def plus(num): return lambda x : x + num
-def minus(num): return lambda x : x - num
-def times(num): return lambda x : x * num
-def divided_by(num): return lambda x : x // num
+def plus(num): return lambda x: x + num
+def minus(num): return lambda x: x - num
+def times(num): return lambda x: x * num
+def divided_by(num): return lambda x: x // num
 
 if __name__ == '__main__':
     print(seven(times(five())))
