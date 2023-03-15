@@ -1,6 +1,8 @@
 def f(x):
     return 10 // x
 
+def f2(x):
+    return 10 / x
 
 if __name__ == '__main__':
     try:
@@ -12,5 +14,9 @@ if __name__ == '__main__':
     except:
         print('Another error')
 
+    try:
+        print(f2('z'))
+    except:
+        print('problem')
 
 
