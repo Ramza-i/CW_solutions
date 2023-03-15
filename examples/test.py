@@ -6,7 +6,7 @@ if __name__ == '__main__':
     try:
         print(f('z'))
     except ZeroDivisionError:
-        print('zero division')
+        print('Zero division')
     except TypeError:
         print('type error')
 
