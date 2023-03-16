@@ -1,6 +1,6 @@
 def solution(args):
     res = [[args[0]]]
-    i=0
+    i = 0
     out = ''
     while True:
         for num in args[1:]:
