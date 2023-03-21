@@ -1,2 +1,3 @@
 /examples/tests/.pytest_cache/
 .idea
+/examples/test.py
